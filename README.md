@@ -29,7 +29,7 @@ python fastqc_report.py fastqc.txt outdir m1 -all
 Alternatively, all reports can be generated in the Python console by typing:
 
 ```
-runfile(“fastqc_report.py”, args=”fastqc.txt outdir m1 -all”)
+runfile("fastqc_report.py", args="fastqc.txt outdir m1 -all")
 ```
 
 For additional help, add the ```–h``` or ```--help``` flag:
