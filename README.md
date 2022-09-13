@@ -15,18 +15,25 @@ FastQC Report Generator does not require an installation procedure, simply open 
 
 ## Usage
 To generate reports for specific FastQC modules (e.g., <i>Per base sequence quality<i/> (module 2) and <i>K-mer Content<i/> (module 12) parsed from an input file (<i>fastqc.txt<i/>) in output directory (<i>outdir<i/>), type the following in the command-line:
+
 ```
 python fastqc_report.py fastqc.txt outdir m2 m12 m1
 ```
+
 To generate reports and graphs for <b>all<b/> modules, type:
+
 ```
 python fastqc_report.py fastqc.txt outdir m1 -all
 ```
+
 Alternatively, all reports can be generated in the Python console by typing:
+
 ```
 runfile(“fastqc_report.py”, args=”fastqc.txt outdir m1 -all”)
 ```
+
 For additional help, add the ```–h``` or ```--help``` flag:
+
 ```
 python fastqc_report.py -h  
 ```
