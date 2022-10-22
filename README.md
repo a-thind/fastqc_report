@@ -1,5 +1,5 @@
 # FastQC Report Generator
-FastQC Report Generator is a lightweight command-line tool for creating report files and visualisations from FastQC text files.
+FastQC Report Generator is a lightweight command-line tool for creating report files and visualisations from [FastQC](https://github.com/s-andrews/FastQC) text files.
 
 ## System Requirements
 - Python 3.4+ is required to run FastQC Report Generator.
