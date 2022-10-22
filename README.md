@@ -14,7 +14,7 @@ FastQC Report Generator is a lightweight command-line tool for creating report f
 FastQC Report Generator does not require an installation procedure, simply open the terminal in Linux / MacOS or the Command Prompt in Windows, navigate to the fastqc_report directory and run fastqc_report.py (see below) using Python from the command-line.
 
 ## Usage
-To generate reports for specific FastQC modules (e.g., <i>Per base sequence quality<i/> (module 2) and <i>K-mer Content<i/> (module 12) parsed from an input file (<i>fastqc.txt<i/>) in output directory (<i>outdir<i/>), type the following in the command-line:
+To generate reports for specific FastQC modules (e.g., <i>Per base sequence quality<i/> (module 2) and <i>K-mer Content</i> (module 12) parsed from an input file (<i>fastqc.txt</i>) in output directory (<i>outdir</i>), type the following in the command-line:
 
 ```
 python fastqc_report.py fastqc.txt outdir m2 m12 m1
